@@ -6,7 +6,7 @@ document. querySelector("#KEISAN").addEventListener("click",(event)=>{
     const INPUT1 = parseFloat(document.querySelector("#number1").value);
     const INPUT2 = parseFloat(document.querySelector("#number2").value);
     if(!isNaN(INPUT1) && !isNaN(INPUT2)){
-        document.querySelector("#result").textContent = INPUT1 / INPUT2;
+        document.querySelector("#result").textContent = INPUT1 + INPUT2;
     }else{
         document.querySelector("#result").textContent = "正確な数値を入力してください";
         document.querySelector("#result").style.color = "red";
